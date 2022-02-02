@@ -1,0 +1,24 @@
+h1 {
+    text-align: center;
+}
+
+.form-group .form-control {
+    width: 70%;
+}
+.custom-select.my-1.mr-sm-2 {
+    width: 34%;
+    margin-left: 1rem;
+}
+.form-group .custom-select {
+    width: 42%;
+}
+#datepicker  {
+    margin-left: 1rem;
+}
+@media only screen and (max-resolution: 150dpi) and (min-width: 320px) {
+    .form-group .custom-select {
+        width: 42%;}
+    .custom-select.my-1.mr-sm-2 {
+         width: 34%;}
+    .form-group .form-control {
+            width: 100%; }
