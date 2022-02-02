@@ -19,12 +19,14 @@
     <link rel="stylesheet" type="text/css" href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css" />
     <link rel="stylesheet" type="text/css" href="/CSS/styles.css" />
     <title>Task Planner</title>
+    
 </head>
 
 <body>
+   
     <div class="container">
-
-        <h1>Add Task <br> <span id="DateElement"> </span> </h1>
+    
+        <h1>My To-Do App<br> <span id="DateElement"> </span> </h1>
 
         <p>
             <span>
@@ -104,9 +106,9 @@
                 <div class="col-sm-10">
                     <select class="custom-select" id="Status" required>
                         <option selected disabled value="">Choose...</option>
-                        <option class="text-danger">Pending</option>
-                        <option class="text-success">In Progress</option>
-                        <option class="text-primary">Done</option>
+                        <option class="text-warning">Pending</option>
+                        <option class="text-danger">In Progress</option>
+                        <option class="text-success">Done</option>
                     </select>
                     <div class="invalid-feedback">
                         Status must be selected
@@ -118,8 +120,7 @@
             </div>
             <div class="form-group row align-items-center justify-content-center">
                 <div class="col-sm-5">
-                    <button type="submit" class="btn btn-secondary ml-5 mt-5 mb-5 btn-lg" value="Reset form">Add New
-                        Task</button>
+                    <button type="submit" class="btn btn-secondary ml-5 mt-5 mb-5 btn-lg" value="Reset form">Submit</button>
                 </div>
                 <!-- Function to clear form on submit
                 <script>
@@ -173,7 +174,7 @@
 
                 <!-- to do task details -->
                 <!-- <div id="taskManager"> -->
-                <div>
+                <div class="col-sm-11">
                     <ul class="list-group" id="task-list">
 
                     </ul>

@@ -81,7 +81,7 @@ class taskManager {
     // <ul class="list-group" id="task-list">  </ul>
 
     let taskStr = `
-                        <li class="list-group-item" data-task-id="${
+                        <li class="form-group list-group-item" data-task-id="${
                           task.taskId
                         }">
                             <div class="d-flex w-100 mt-2 justify-content-between align-items-center">
@@ -96,13 +96,13 @@ class taskManager {
                             </div>
                             <p>${task.taskDescription}</p>
                             <p>
-                                <button class="done-button btn btn-secondary btn-sm ${
+                                <button class="done-button btn btn-success btn-sm ${
                                   String(task.taskStatus).toLowerCase() ===
                                   "done"
                                     ? "invisible"
                                     : "visible"
                                 }" name="done" type="button">Done</button>
-                                <button class="delete-button delete btn btn-secondary btn-sm visible" name="delete">DELETE</button>
+                                <button class="delete-button delete btn btn-danger btn-sm visible" name="delete">DELETE</button>
                             </p>
                         </li>
                     `;

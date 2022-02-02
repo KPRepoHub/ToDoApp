@@ -1,6 +1,8 @@
 body {
-    background-image: url("/Images/background.jpg");
-    opacity: 0.9;
+    background: url('/Images/background2.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-opacity: 0.8;
 }
 
 .col-sm-2 {
@@ -21,6 +23,7 @@ h1 {
 .form-group .form-control {
     width: 70%;
     margin-bottom: 10px;
+    
 }
 
 .custom-select.my-1.mr-sm-2 {
@@ -33,6 +36,7 @@ h1 {
 #datepicker  {
     margin-left: 1rem;
 }
+
 @media only screen and (max-resolution: 150dpi) and (min-width: 320px) {
     .form-group .custom-select {
         width: 42%;}
