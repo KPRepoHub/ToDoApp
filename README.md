@@ -1,6 +1,7 @@
-# Project Name
-> Outline a brief description of your project.
-> Live demo [_here_](https://www.example.com). <!-- If you have the project hosted somewhere, include the link here. -->
+# My To-do App
+> This application allows the user to create, catagorise, assign responsibility and status to a specified task. Once the task has been finalised they can be updated and removed from the task list.
+
+> https://github.com/KPRepoHub/ToDoApp
 
 ## Table of Contents
 * [General Info](#general-information)
@@ -13,77 +14,91 @@
 * [Room for Improvement](#room-for-improvement)
 * [Acknowledgements](#acknowledgements)
 * [Contact](#contact)
-<!-- * [License](#license) -->
+
 
 
 ## General Information
-- Provide general information about your project here.
-- What problem does it (intend to) solve?
-- What is the purpose of your project?
-- Why did you undertake it?
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+- The project undertaken was a standard assessment requirement of Academy Xi as facilitated by Generation Australia.
+- The purpose of the project is to create an application that is user friendly and taks pressure of the individual with many tasks to sort out.
+- The application solves the issue of the user in remembering tasks to do, and keeps a visual record of the status and date of tasks.
+
+
+
 
 
 ## Technologies Used
-- Tech 1 - version 1.0
-- Tech 2 - version 2.0
-- Tech 3 - version 3.0
+- Visual Studio 1.64.0
+- Node.js 14.16.0
+- Boostrap 4.4.1
+- Javascript ES6
+- HTML 5 and CSS
+- Git and Github
+
+
 
 
 ## Features
-List the ready features here:
-- Awesome feature 1
-- Awesome feature 2
-- Awesome feature 3
+- Simple User Interface for creating and displaying tasks
+- The adding task cannot be back-dated
+- There are three catagories the user can assign each task
+- When the website is refreshed the display list of task remains
+- The tasks will be removed when the done or delete button is chosen
 
 
 ## Screenshots
-![Example screenshot](./img/screenshot.png)
-<!-- If you have screenshots you'd like to share, include them here. -->
+-Showing front page of page
+[Screenshots](./img/MyTodoApp.png)
+
+-Showing how an item is displayed after submit
+[Screenshots](./img/DisplayList1.png)
+
+-Showing list of items displayed after submit
+[Screenshots](./img/DisplayList2.png)
+
 
 
 ## Setup
-What are the project requirements/dependencies? Where are they listed? A requirements.txt or a Pipfile.lock file perhaps? Where is it located?
+The project specification are listed in the below reference from Task 1 to Task 10.
+https://github.com/workForClass/final-jwd7
 
-Proceed to describe how to install / setup one's local environment / get started with the project.
+To view the code:
+$ cd../
+$ npm install
+$ npm start
 
 
 ## Usage
-How does one go about using it?
-Provide various use cases and code examples here.
+The user inputs the information required in the fields: Task Name, Description, Assigned to, due date and status.
 
-`write-your-code-here`
+If the user does enter the minimum number of five characters for Task Name, Description and Assigned to or missing out any fields a validation error will be flagged.
+
+The user can only select the current or future date and cannot backdatethe Due Date field.
+
+When the submit button is selected the information is displayed in a table below the form.
+
+The user can update the tasks in the display field by selecting done or deleted. The Done selection updates the status of the task while the delete removes it from the list.
+
 
 
 ## Project Status
-Project is: _in progress_ / _complete_ / _no longer being worked on_. If you are no longer working on it, provide reasons why.
+Project is:complete. As the Sprint was closed the requirements for the tasks were met so no further work will be done for the presentation.
 
 
 ## Room for Improvement
-Include areas you believe need improvement / could be improved. Also add TODOs for future development.
 
 Room for improvement:
-- Improvement to be done 1
-- Improvement to be done 2
+- Improvement add Edit function and use Bootstrap modal
 
 To do:
-- Feature to be added 1
-- Feature to be added 2
+- Centre display list task
+- Add edit functionality
+- Make date at top smaller or left/right align h1
 
 
 ## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- This project was based on [this tutorial](https://www.example.com).
-- Many thanks to...
+
+-Team Group Members: Kevin Pan, Jarrod Fong-Lim, and Fransiskus Tirta
+- This project was based on [this tutorial](https://github.com/workForClass/final-jwd7).
+- Many thanks to the following for their guidance: Lisa Ostman, Albert Palada, Pankaj Alwani 
 
 
-## Contact
-Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
